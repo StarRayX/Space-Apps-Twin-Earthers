@@ -58,7 +58,7 @@ body
 }
 
 
-#game_drop {
+iframe {
     width: 960px;
     height: 700px;
 }
