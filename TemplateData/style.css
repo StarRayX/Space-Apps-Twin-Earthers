@@ -5,6 +5,19 @@ body
     background-color: rgb(230, 230, 230) !important;
 }
 
+*::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #061a39;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #365ba6;
+    border-radius: 10px;
+  }
+
 /* latin-ext */
 @font-face {
     font-family: 'Gabarito';
@@ -110,7 +123,7 @@ h3 {
     padding-inline: 200px;
     color: #061a39;
     font-family: 'Gabarito';
-    overflow: scroll;
+    overflow-y: scroll;
     padding-bottom: 20px;
 }
 
@@ -138,7 +151,7 @@ h3 {
     font-family: 'Gabarito';
     text-align: center;
     position: relative;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .ccomposition .desccon {
@@ -168,7 +181,7 @@ h3 {
     font-family: "Gabarito";
     font-size: 17px;
     position: relative;
-    overflow: scroll;
+    overflow-y: scroll;
     
 }
 .longdesc .desccon {
