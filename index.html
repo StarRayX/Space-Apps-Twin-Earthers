@@ -1,25 +1,143 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
+    
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | My project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <style>
+      .pie-chart {
+        background:
+          radial-gradient(
+            circle closest-side,
+            transparent 70%,
+            #061a39 50%,
+            #000 100%
+          ),
+          conic-gradient(
+            #4e79a7 0,
+            #4e79a7 75%,
+            #f28e2c 0,
+            #f28e2c 98%,
+            #e15759 0,
+            #e15759 99%,
+            #76b7b2 0,
+            #76b7b2 100%
+        );
+        position: relative;
+        width: 100%;
+        min-height: 100%;
+        margin: 0px;
+      }
+      .pie-chart h2 {
+        position: absolute;
+        margin: 1rem;
+        font-size: 40px;
+        color: rgb(200, 218, 233);
+      }
+      .pie-chart figcaption {
+        font-family: 'Gabarito';
+        color: rgb(200, 218, 233);
+        position: absolute;
+        bottom: 1em;
+        right: 1em;
+        font-size: 20px;
+        text-align: right;
+      }
+      .pie-chart span:after {
+        display: inline-block;
+        content: "";
+        width: 0.8em;
+        height: 0.8em;
+        margin-left: 0.4em;
+        height: 0.8em;
+        border-radius: 0.2em;
+        background: currentColor;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-      <div class="title">1</div>
+      <div class="title">
+        <h2>Twin Earthers - NASA Space Apps Challenge Submission</h2>
+      </div>
       <div class="planet"><img src="image.png" alt="TE 22008 b"></div>
-      <div class="shortdesc">We created a habitable exoplanet using publicly available data and compared it to Earth to understand the conditions necessary for life. Our project explores the feasibility of living on this planet, offering valuable insights into different habitable conditions beyond Earth. </div>
-      <div class="obj">4</div>
+      <div class="shortdesc">
+        <div class="desccon">
+          <h2>TE 22008 b</h2>
+            Leveraging publicly available data and cutting-edge scientific knowledge, we have successfully created our own rendition of a habitable exoplanet, named TE 22008 b, and undertaken a comprehensive comparative analysis with our own beloved Earth. This ambitious endeavor serves as a remarkable stepping stone towards understanding the potential conditions necessary for extraterrestrial life and the feasibility of human habitation beyond our home planet.
+        </div>
+      </div>
+      <div class="objtitle">
+        <h2>Objectives of our project:</h2>
+      </div>
+      <div class="obj obj1 ">
+        <h3>1.</h3>
+        Design and Create a habitable exoplanet based on astrobiological concepts.
+      </div>
+      <div class="obj obj2 ">
+        <h3>2.</h3>
+        Develop a 500 word passage on how living in the habitable exoplanet would be like realistically
+
+      </div>
       <div class="video">5</div>
-      <div class="ccomposition">6</div>
-      <div class="acomposition">7</div>
-      <div class="longdesc">8</div>
-      <div class="resources">9</div>
-      <div class="unity-desktop">
-        <div id="html_embed_9130664" class="html_embed_widget base_widget embed_wrapper">
+      <div class="ccomposition">
+        <div class="desccon">
+          <h2>Lithospheric Composition</h2>
+          The lithosphere of TE 22008 b closely mirrors Earth's, primarily consisting of silicate rocks; however, it exhibits a distinct reddish hue owing to its higher iron content. This unique geological feature sets it apart and offers a stunning visual contrast to our familiar blue planet. The surface of this celestial body is characterized by rugged and towering mountain ranges, shaped by an active system of plate tectonics. These geological dynamics have contributed to the creation of dramatic, jagged landscapes, punctuating the exoplanet's terrain with awe-inspiring peaks and deep valleys. The presence of plate tectonics not only underscores the planet's geological dynamism but also raises intriguing questions about its potential impact on the planet's habitability, providing a captivating subject for further exploration and scientific inquiry.
+        </div>
+      </div>
+      <div class="acomposition">
+        <figure class="pie-chart">
+          <h2>Atmospheric<br>Composition</h2>
+          <figcaption>
+            Hydrogen 75%<span style="color:#4e79a7"></span><br>
+            Oxygen 23%<span style="color:#f28e2c"></span><br>
+            Carbon 1%<span style="color:#e15759"></span><br>
+            Other Gases 1%<span style="color:#76b7b2"></span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="longdesc">
+        <div class="desc">
+          <div class="desccon">
+            <h2>What is TE 22008 b</h2>
+            TE 22008 b is an exoplanet located in one of the arms of a spiral galaxy orbiting a K-class dwarf star with an axial tilt of 24 degrees. As a result, the planet orbits much closer to its star, although still remaining in the star’s habitable zone, around 1AU away. The nature of the star makes it so that it has a reduced emission of ultraviolet rays and X-rays, is not prone to solar flares, and is less likely to tidally lock the planet. It also has a singular moon orbiting it. TE 22008 b is larger than Earth with its radius being 1.5 times longer than it, producing around 1.2G of gravitational pull. It would be harder to move and perform tasks due to the increased gravity, but it could also positively affect a person’s muscle mass, bone density, and cardiovascular performance. The bigger size also means more space for industrial development, natural resources, and agricultural activities. The increased gravity also results in a thicker atmosphere, which is composed of 75% nitrogen,  23% oxygen, 1% carbon, and 1% other gasses. As oxygen is an essential aspect of respiration, the increase of oxygen in the atmosphere makes respiration more effective and efficient. However it also has some drawbacks. Combustion is enhanced which does have its benefits, but fire and combustion are a more dangerous hazard now. Furthermore, the difference in atmospheric composition can lead to biological problems in living beings, such as accelerated aging. The planet has a thicker liquid core than the Earth composed mainly of nickel and iron, which results in a magnetic field around the planet. The crust mainly contains silicate rocks like Earth, but with a greater iron content leading it to look more reddish. The surface is mostly mountainous and jagged due to plate tectonics. Life here would be different from life on Earth. The star would be closer, and the light it emits has a good portion of it in the infrared side of the light spectrum. Without any evolutionary adaptation, we would perceive colors as dimmer and more towards hues of red. Color psychology tells us that this affects the mindset, mood, and emotions of a person. A result of this color shift could be a change in the decision-making abilities and behavior of people. Temperatures would drop and we would have colder winters and summers. Furthermore, the day/night cycle would be affected, resulting in a disruption to the circadian rhythm of a person, leading to the need to readjust. Humanity would need to adapt to the colder climate, focusing resources more on heating, insulation, and new agricultural practices. The colder climatic conditions may cause people to migrate to more habitable areas of the planet. People will need to innovate methods to overcome the challenges brought by this environment, mainly the harnessing of volcanoes for energy and heat as solar panels are not as effective due to the decrease in sunlight.
+          </div>
+        </div>
+        <div class="imgs">
+          <div class="div1">
+            <img src="./planet.png" alt="">
+          </div>
+          <div class="div2">
+            <img src="./landscape.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="resources">
+        <h2>Resources:</h2>
+        <ul class="generatedList"> 
+          <li><a href="https://seec.gsfc.nasa.gov/what_makes_a_planet_habitable.html">SEEC - What makes a planet habitable?</a></li>
+          <li><a href="https://svs.gsfc.nasa.gov/13526#:~:text=One%20required%20ingredient%20for%20habitability,is%20called%20the%20habitable%20zone.">NASA SVS | What Makes an Exoplanet Habitable?</a></li>
+          <li><a href=" https://exoplanets.nasa.gov/search-for-life/habitable-zone/">NASA - The Habitable Zone | The Search For Life – Exoplanet Exploration: Planets Beyond our Solar System</a></li>
+          <li><a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Astro/wcearth.html#c2">HyperPhysics - Windows of Creation</a></li>
+          <li><a href="https://www.quora.com/What-is-the-ideal-range-of-the-axial-tilt-of-a-planet-for-habitability">Quora - Ideal Axial Tilt</a></li>
+          <li><a href="https://www.quora.com/What-color-and-how-bright-would-the-sky-be-if-Earth-orbited-an-orange-dwarf-star-in-the-habitable-zone">Quora - Atmosphere Colors If the Earth Orbited an Orange Dwarf</a></li>
+          <li><a href="https://www.quora.com/What-would-happen-if-Earths-core-becomes-bigger-than-it-is-now">Quora - What would happen if Earth's core becomes bigger than it is now?</a></li>
+          <li><a href="https://www.jagranjosh.com/general-knowledge/what-makes-earth-suitable-for-life-1518083138-1">Jagran Josh - What makes Earth suitable for life?</a></li>
+          <li><a href="https://www.skyatnightmagazine.com/space-science/what-makes-a-planet-habitable">Sky at Night Magazine - What makes a planet habitable?</a></li>
+       </ul>
+      </div>
+      <div class="unity-desktop" align="center">
+        <h2>3D Model of TE 22008 b</h2>
+        WASD - Move, Click - Look, Q/E - Roll, Scroll - Speed
+        <br>
+        <div id="html_embed_9130664" class="html_embed_widget base_widget embed_wrapper" style="margin-top: 20px;">
           <div data-width="960" style="width: 960px; height: 600px" data-height="600" class="game_frame game_loaded">
             <iframe frameborder="0" allowfullscreen="true" allow="autoplay; fullscreen *; geolocation; microphone; camera; midi; monetization; xr-spatial-tracking; gamepad; gyroscope; accelerometer; xr; cross-origin-isolated" src="https://v6p9d9t4.ssl.hwcdn.net/html/8852685/index.html" id="game_drop" allowtransparency="true" webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" scrolling="no"></iframe>
           </div>
