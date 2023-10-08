@@ -26,6 +26,11 @@ body
 .planet {
     grid-area: planet;
 }
+
+.planet img {
+    margin: auto;
+}
+
 .shortdesc {
     grid-area: shortdesc;
 }
@@ -49,10 +54,13 @@ body
 }
 .unity-desktop {
     grid-area: unity;
+    margin: auto;
 }
 
-#unity-container.unity-desktop {
-    margin: auto;
+
+#game_drop {
+    width: 960px;
+    height: 700px;
 }
 
 .container div:nth-child(even) {
