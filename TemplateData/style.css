@@ -110,6 +110,8 @@ h3 {
     padding-inline: 200px;
     color: #061a39;
     font-family: 'Gabarito';
+    overflow: scroll;
+    padding-bottom: 20px;
 }
 
 .obj1 {
@@ -136,6 +138,7 @@ h3 {
     font-family: 'Gabarito';
     text-align: center;
     position: relative;
+    overflow: scroll;
 }
 
 .ccomposition .desccon {
@@ -165,6 +168,8 @@ h3 {
     font-family: "Gabarito";
     font-size: 17px;
     position: relative;
+    overflow: scroll;
+    
 }
 .longdesc .desccon {
     background: none !important;
@@ -173,6 +178,8 @@ h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 85%;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 
